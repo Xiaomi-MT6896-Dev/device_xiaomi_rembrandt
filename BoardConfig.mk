@@ -6,9 +6,6 @@
 
 DEVICE_PATH := device/xiaomi/rembrandt
 
-# Inherit from mt6895-common
-include device/xiaomi/mt6895-common/BoardConfigCommon.mk
-
 # Display
 TARGET_SCREEN_DENSITY := 560
 
@@ -26,3 +23,6 @@ VENDOR_SECURITY_PATCH := 2024-11-01
 
 # Inherit the proprietary files
 include vendor/xiaomi/rembrandt/BoardConfigVendor.mk
+
+# Inherit from mt6895-common
+include device/xiaomi/mt6895-common/BoardConfigCommon.mk
