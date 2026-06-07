@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES += \
 # Overlay
 PRODUCT_PACKAGES += \
     FrameworksResOverlayRembrandt \
+    NfcOverlayRembrandt \
     SettingsProviderOverlayRembrandt \
     SettingsResOverlayRembrandt \
     SystemUIOverlayRembrandt \
